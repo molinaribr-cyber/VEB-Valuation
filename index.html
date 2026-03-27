@@ -208,20 +208,20 @@ table.dt .totrow td{font-weight:800;border-top:2px solid var(--bd);color:var(--g
 <script>
 let LANG='es';
 const D={l:['2023','2024','2025','2026','2027','2028','2029','2030'],
-v:[666807,919497,1312010,2153260,2918994,3463736,3794619,3977983],
-c:[460066,716349,1010986,1601345,2160017,2554575,2793248,2925219],
-e:[206741,203148,301024,551915,758977,909161,1001371,1052764],
+v:[666807,433621,1312010,2153260,2918994,3463736,3794619,3977983],
+c:[460066,1084649,1010986,1601345,2160017,2554575,2793248,2925219],
+e:[206741,-282551,301024,551915,758977,909161,1001371,1052764],
 tw:[353900,485877,923889,1698887,2422057,2942413,3260204,3436778],
 un:[312908,433621,388121,454373,496936,521323,534416,541205],
 op:[73416,112896,175270,262852,359104,428189,470367,493806],
-inf:[119196,198430,281710,435396,586809,693666,758283,794005],
+inf:[119196,197552,281710,435396,586809,693666,758283,794005],
 pe:[267455,405023,554006,903097,1214103,1432719,1564598,1637408],
 bsY:['2021','2022','2023','2024'],ac:[608072,540018,835425,586954],pa:[178359,104489,808239,445812],pt:[429714,435529,27186,141142],
 bm:[44574681,50176395,56482078,63580199,71570342,80564609,90689188,102086127],
 rat:{Liquidez:[3.30,5.23,.99,1.23],Endeudamiento:[.29,.19,.97,.76],'Margen Neto':[.054,.057,.023,.039],ROA:[.19,.15,.05,.09]},
-rev25:[241731,178543,119131,101261,121514,133665,145695,138410,166092,207615,259519,324399],
-cost25:{RRHH:71046,Ventas:61112,Dir:31070,MKT:15257,IT:3556,'At.Cliente':4795,Fraude:6164,Admin:3453}};
-const T=.35,DN=172895,EF=551915,VF=2153260;
+rev25:[198140,145157,89910,91283,74188,74852,82572,72335,74136,99614,129692,170609],
+cost25:{RRHH:528076,Ventas:61112,Dir:31070,MKT:15257,IT:3556,'At.Cliente':4795,Fraude:6164,Admin:3453}};
+const T=.35,DN=172895,EF=301024,VF=1312010;
 const CL=[{n:'Andesmar',i:'andesmar'},{n:'Flecha Bus',i:'flecha-bus'},{n:'Chevallier',i:'chevallier-nueva-chevallier'},{n:'Plusmar',i:'plusmar'},{n:'Cata Int.',i:'cata-internacional'},{n:'Crucero Norte',i:'crucero-del-norte'},{n:'Urquiza',i:'urquiza'},{n:'Buses Lep',i:'buses-lep'},{n:'Condor Estrella',i:'condor-estrella-el-condor'},{n:'El Rápido',i:'el-rapido-internacional'},{n:'Pullman Bus',i:'pullman-bus'},{n:'Fono Bus',i:'fono-bus'},{n:'Sol Bus',i:'sol-bus'},{n:'Buttini',i:'buttini'},{n:'Ersa',i:'ersa'},{n:'Río Uruguay',i:'rio-uruguay'},{n:'Coitram',i:'coitram'},{n:'Micromar',i:'micromar'},{n:'Rápido Tata',i:'rapido-tata'},{n:'San Martín',i:'san-martin'},{n:'Gutierrez',i:'gutierrez'},{n:'Leader',i:'leader'},{n:'Vosa',i:'vosa'},{n:'Iselin',i:'iselin'},{n:'Transfer Line',i:'transferline'},{n:'El Águila',i:'el-aguila'},{n:'El Pulqui',i:'el-pulqui'},{n:'Sierras Cba.',i:'sierras-cordobesas'},{n:'Galvense',i:'galvense'},{n:'Master Bus',i:'master-bus'},{n:'Exp. Oeste',i:'expreso-del-oeste'},{n:'Tony Tur',i:'tony-tur'},{n:'Plata Bus',i:'plata-bus'},{n:'Nossar',i:'nossar'},{n:'Cal Tur',i:'caltur'},{n:'Cauvi',i:'cauvi'},{n:'KMB',i:'kmb'},{n:'NSA',i:'nuestra-senora-de-la-asuncion'},{n:'Zenit',i:'zenit'},{n:'Taqsa Marga',i:'taqsa-marga'},{n:'Tatú',i:'tatu-carretero'},{n:'ETA Kurtz',i:'eta-kurtz'},{n:'Ñandú Sur',i:'nandu-del-sur'},{n:'Balut',i:'balut'},{n:'Potosí',i:'potosi-buses'},{n:'Central Arg.',i:'central-argentino'},{n:'La Preferida',i:'la-preferida'},{n:'Mar Chiquita',i:'mar-chiquita'}];
 function gv(id){return parseFloat(document.getElementById(id).value)}
 function f(n){if(Math.abs(n)>=1e6)return(n/1e6).toFixed(2)+'M';if(Math.abs(n)>=1e3)return(n/1e3).toFixed(0)+'K';return n.toFixed(0)}
